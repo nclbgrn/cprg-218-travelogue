@@ -13,6 +13,27 @@ body {
     overflow-x: hidden;
 }
 
+/* Header Styling */
+header {
+    text-align: center;
+    background: linear-gradient(135deg, #494343, #1c1c1c);
+    padding: 2rem 1rem;
+    border-bottom: 2px solid #333;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #e5caa8;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px #000;
+}
+
+header .subtitle {
+    font-size: 1.2rem;
+    color: #c8c7c0;
+    font-style: italic;
+}
+
 
 
 

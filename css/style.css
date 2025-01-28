@@ -34,6 +34,12 @@ header .subtitle {
     font-style: italic;
 }
 
+/* Main Content Styling */
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 
 

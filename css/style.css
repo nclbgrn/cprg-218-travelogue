@@ -86,10 +86,30 @@ main {
     box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
 }
 
-/* Image Grid */
-.destination img:nth-child(2) {
-    margin: 0 10px;
+/* Destination Image Grid */
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
+
+.image-container img {
+    width: 100%; /* Each image takes full width of its grid cell */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+}
+
+
+
 
 
 

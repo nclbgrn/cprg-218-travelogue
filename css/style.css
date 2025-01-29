@@ -108,6 +108,16 @@ main {
     box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
 }
 
+/* Footer Copyright Section */
+footer .copyright {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.9rem;
+    color: #c8c7c0;
+}
+
 
 
 

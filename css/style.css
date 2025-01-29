@@ -41,6 +41,56 @@ main {
     margin: 0 auto;
 }
 
+/* Destination Sections */
+.destination {
+    margin-bottom: 4rem;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.destination:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+.destination h2 {
+    font-size: 2rem;
+    color: #e5caa8;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.destination p {
+    font-size: 1.1rem;
+    color: #d6d6d6;
+    text-align: justify;
+    margin-top: 1rem;
+    line-height: 1.8;
+}
+
+/* Image Styling */
+.destination img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.destination img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Image Grid */
+.destination img:nth-child(2) {
+    margin: 0 10px;
+}
+
 
 
 
